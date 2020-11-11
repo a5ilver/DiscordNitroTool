@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscordCardingTool.JSON
+namespace DiscordNitroTool.JSON
 {
 
     public class PremiumGuildSubscriptionBody

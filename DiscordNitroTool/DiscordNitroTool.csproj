@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3E3236C9-9FCC-4968-B386-8880BD2ADFEB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DiscordCardingTool</RootNamespace>
-    <AssemblyName>DiscordCardingTool</AssemblyName>
+    <RootNamespace>DiscordNitroTool</RootNamespace>
+    <AssemblyName>DiscordNitroTool</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Program.cs" />
+    <Compile Include="JSON\BillingSubscriptionPostResponse.cs" />
     <Compile Include="JSON\BoostGuildBody.cs" />
     <Compile Include="JSON\BoostGuildResponse.cs" />
     <Compile Include="JSON\BuyPremiumGuildSubscription.cs" />
+    <Compile Include="JSON\GuildBillingBody.cs" />
     <Compile Include="JSON\GuildSettingsPatch.cs" />
     <Compile Include="JSON\JoinGuildResponse.cs" />
     <Compile Include="JSON\PaymentMethod.cs" />
